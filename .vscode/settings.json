@@ -1,13 +1,14 @@
 {
   "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
+  // "eslint.autoFixOnSave": true,
   // prettier进行格式化时是否安装eslint配置去执行，建议false
-  "prettier.eslintIntegration": true,
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "eslint.alwaysShowStatus": true,
-  "prettier.disableLanguages": ["js"],
-  "files.autoSave": "onFocusChange"
+  // "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true, // 每次保存的时候将代码按eslint格式进行修复
+  "editor.formatOnSave": true
+  // "[javascript]": {
+  //   "editor.formatOnSave": false
+  // },
+  // "eslint.alwaysShowStatus": true,
+  // "prettier.disableLanguages": ["js"],
+  // "files.autoSave": "onFocusChange"
 }
