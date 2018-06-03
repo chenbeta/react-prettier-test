@@ -1,8 +1,16 @@
 {
   "extends": ["react-app", "prettier"],
   "rules": {
-    "no-console": "error",
-    "quotes": [1, "single"]
+    "prettier/prettier": [
+      "error",
+      {
+        "Semicolons": true,
+        "singleQuote": true,
+        "bracketSpacing": false,
+        "jsxBracketSameLine": true,
+        "arrowParens": "avoid"
+      }
+    ]
   },
   "plugins": ["prettier"]
 }
