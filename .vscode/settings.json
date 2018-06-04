@@ -1,8 +1,8 @@
 {
-  "eslint.enable": true
-  // "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
   // prettier进行格式化时是否安装eslint配置去执行，建议false
-  // "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": true
   // "eslint.autoFixOnSave": true // 每次保存的时候将代码按eslint格式进行修复
   // "editor.formatOnSave": true
   // "[javascript]": {

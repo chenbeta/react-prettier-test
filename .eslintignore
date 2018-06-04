@@ -4,3 +4,6 @@ scripts/*.js
 node_modules/**
 config/**
 
+package.json
+
+prettier.config.js
